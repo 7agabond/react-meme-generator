@@ -2,11 +2,11 @@ import React from "react";
 import memesData from "../memesData.js";
 
 function getMemeImage() {
-  const meme =
+  const memes =
     memesData.data.memes[
       Math.floor(Math.random() * memesData.data.memes.length)
     ];
-  console.log(meme);
+  console.log(memes);
 }
 
 export default function Meme() {
