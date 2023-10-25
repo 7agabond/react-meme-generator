@@ -7,6 +7,10 @@ body {
   margin: 0;
 }
 
+main {
+  padding: 36px;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -32,10 +36,16 @@ body {
 }
 
 .form {
-    display: grid;
-    grid-template: 40px 40px / 1fr 1fr;
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+
+.form--inputs {
+  font-family: "Karla", sans-serif;
 }
 
 .form--button {
-    grid-column: 1 / -1;
+  grid-column: 1 / -1;
+  font-family: "Karla", sans-serif;
 }
