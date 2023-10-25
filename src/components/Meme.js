@@ -2,7 +2,8 @@ import React from "react";
 import memesData from "../memesData.js";
 
 function getMemeImage() {
-  const memesArray = memesData.data.memes
+  const memesArray = memesData.data.memes;
+  const randomNumber = Math.floor(math.random() * memesArray.length);
 }
 
 export default function Meme() {
