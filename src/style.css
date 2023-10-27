@@ -57,3 +57,7 @@ main {
   border: transparent;
   cursor: pointer;
 }
+
+.memeImage {
+  max-width: 100%;
+}
